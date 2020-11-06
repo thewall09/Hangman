@@ -1,38 +1,38 @@
-.App {
+.app {
   text-align: center;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.letter {
+  margin: 5px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.letter-place-holder {
+  width: 40px;
+  height: 55px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-end; 
+  font-size: 50px;
+  margin: 5px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.wordguess-board-container,
+.letter-board-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.letter-placeholder-container{
+  display:flex;
+  flex-direction:flex-row;
+  justify-content:center;
+}
+
+.game-progress-container{
+  margin-top:20px;
+}
+
+h4{
+  margin:0;
+  padding:0;
 }
